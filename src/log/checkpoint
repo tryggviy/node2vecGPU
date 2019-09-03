@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\workspace\\pyworks\\node2vecGPU\\src\\log\\model.ckpt"
+all_model_checkpoint_paths: "C:\\workspace\\pyworks\\node2vecGPU\\src\\log\\model.ckpt"

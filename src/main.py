@@ -124,7 +124,7 @@ def learn_embeddings_tensorflow(walks):
 	para_dict['skip_window'] = args.window_size
 	para_dict['num_sampled'] = args.num_sampled
 	para_dict['num_steps'] = args.iter + 1
-	para_dict['emb_path'] = args.output + '.emb'
+	para_dict['emb_path'] = args.output
 	para_dict['start_learning_rate'] = args.start_learning_rate
 	para_dict['end_learning_rate'] = args.end_learning_rate
 	para_dict['decay_power'] = args.decay_power
