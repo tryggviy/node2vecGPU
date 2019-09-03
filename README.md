@@ -35,3 +35,17 @@ The output file has n lines for a graph with n vertices.
 The n lines are as follows:
 
 `node_id dim1 dim2 ... dimd`
+
+##### New Parameters
+
+`--start_learning_rate`: The initial learning rate used for training
+
+`--end_learning_rate`: The end learning rate used for training
+
+`--decay_power`: how the learning rate decay when the number of iterations increasing (0.01 ~ 10)
+
+`--iter`: how many iterations used in training (>1)
+
+`--batch_size`: The batch size of training Word2Vec (>1)
+
+`--num_sampled`: the number of negative samples used in negative sampling (>1) 
